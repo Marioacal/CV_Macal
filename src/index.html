@@ -1,407 +1,416 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio Macal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- MENU ENCABEZADO -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/Logo_macal_1.webp" />  
+    <title>PORTFOLIO MACAL</title>    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER-NAV -->
     <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#">Mario</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">START</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
+      <header>
+        <div class="logo">
+          <img class="img_logo" src="/assets/Logo_macal_1.webp" alt="" />
+          <a href="#">Mario A.</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">START</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
     </div>
 
-    <!-- SECCION INICIO -->
+    <!-- SECCION RESUME -->
     <section id="inicio" class="inicio">
-       
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="/assets/Mario1-color.jpg" alt="">
-            </div>
-            <h1>Mario Acosta</h1>
-            <h2>Frontend Developer</h2>
-            <div class="redes">
-                <a href="https://www.instagram.com/mario.acosta_/" target="_blank"><i class="fab fa-instagram"></i></a>                
-                <a href="#" target="_blank"><i class="fa-brands fa-skype" target="_blank"></i></a>
-                <a href="https://www.linkedin.com/in/mario-acosta-alvarez/" target="_blank"><i class="fa-brands fa-linkedin-in" target="_blank"></i></a>
-                <a href="https://github.com/Marioacal" target="_blank"><i class="fab fa-github"></i></i></a>
-            </div>
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="/assets/Mario1-color-web.webp" alt="" />
         </div>
+        <h1>MARIO ACOSTA</h1>
+        <h2>Frontend Developer</h2>
+        <h5>Macal</h5>
+        <div class="redes">
+          <a href="https://www.instagram.com/mario.acosta_/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/Marioacal" target="_blank"
+            ><i class="fab fa-github" target="_blank"></i
+          ></a>
+          <a href="https://join.skype.com/invite/mI3bX8T2HpFe" target="_blank"
+            ><i class="fa-brands fa-skype"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/mario-acosta-alvarez/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
     </section>
 
-    <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>About Me</h2>
-            <p>Hi everyone 👋🏽, my name is <span>Mario Acosta </span>from Colombia, so I'm a Frontend developer 💻, I’m proficient in 
-                HTML, 
-                CSS, 
-                JavaScript, 
-                Bootstrap and 
-                React.</p>
+    <!-- SECCION ABOUT ME -->
+    <section id="sobremi" class="about_me">
+      <div class="contenido-seccion">
+        <h2>About Me</h2>
+        <p>Hi everyone 👋🏽, my name is <span>Mario Acosta </span>from Colombia, so I'm a Frontend developer 💻, I’m proficient in 
+          HTML, 
+          CSS, 
+          JavaScript, 
+          Bootstrap and 
+          React.</p>
 
-            <div class="fila">
-                <!-- datos personales -->
-                <div class="col">
-                    <h3>Personal Details</h3>
-                    <ul>
-                        <li>
-                            <strong>Birthday</strong>
-                            25-01-1981
-                        </li>
-                        <li>
-                            <strong>Phone</strong>
-                            <a href="https://wa.me/+573183978932" target="_blank"><i class="fa-brands fa-whatsapp"></i> +57(318)3978932</a>
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            <a href="https://marioaa25@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> marioaa25@gmail.com</a>
-                           
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            <a href="https://github.com/Marioacal" target="_blank"><i class="fab fa-github"></i> github.com/Marioacal</a>
-                           
-                        </li>
-                        <li>
-                            <strong>Address</strong>
-                             Cali-Colombia
-                        </li>
+
+          <div class="file">
+            <!-- personal information -->
+            <div class="col">
+                <h3>Personal Details</h3>
+                <ul>
+                    <li>
+                        <strong>Birthday</strong>
+                        25-01-1981
+                    </li>
+                    <li>
+                        <strong>Phone</strong>
+                        <a href="https://wa.me/+573183978932" target="_blank"><i class="fa-brands fa-whatsapp"></i> +57(318)3978932</a>
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        <a href="https://marioaa25@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> marioaa25@gmail.com</a>
                        
-                    </ul>
-                </div>
-
-                <!-- intereses -->
-                <div class="col">
-                    <h3>Interest</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>BOOKS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>TRAVELING</span>
-                        </div>                                            
-                        
-                        <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>PHOTOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-brands fa-figma"></i>
-                            <span>FIGMA</span>
-                        </div>                        
-                        
-                    </div>
-                </div>
+                    </li>
+                    <li>
+                        <strong>Website</strong>
+                        <a href="https://github.com/Marioacal" target="_blank"><i class="fab fa-github"></i> github.com/Marioacal</a>
+                       
+                    </li>
+                    <li>
+                        <strong>Address</strong>
+                         Cali-Colombia
+                    </li>
+                   
+                </ul>
             </div>
-            <button>
-                <a href="/assets/CV MACAL.pdf" download="CV_MARIO_ACOSTA">Download CV<i class="fa-solid fa-download"></i></a> 
-                <span class="overlay"></span>
+
+
+          <!-- interests -->
+          <div class="col">
+            <h3>Interest</h3>
+            <div class="contenedor-intereses">
+                <div class="interes">
+                    <i class="fa-solid fa-book"></i>
+                    <span>BOOKS</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-headphones"></i>
+                    <span>TRAVELING</span>
+                </div>                                            
                 
+                <div class="interes">
+                    <i class="fa-solid fa-camera"></i>
+                    <span>PHOTOS</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-brands fa-figma"></i>
+                    <span>FIGMA</span>
+                </div>                        
                 
-
-                
-
-
-
-            </button>
+            </div>
         </div>
+    </div>
+    
+        <button>
+          <a href="/assets/CV MACAL 1.0.pdf" target="_blank"> Download <strong>Spanish </strong> CV <i class="fa-solid fa-download"></i></a>          
+          <span class="overlay"></span>
+        </button>
+        <button>
+          <a href="/assets/CV MACAL 1.0 ingles.pdf" target="_blank"> Download <strong>English </strong> CV <i class="fa-solid fa-download"></i></a>          
+          <span class="overlay"></span>
+        </button>
+      </div>
     </section>
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- Technical Skill -->
-                <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>Javascript <i class="fa-brands fa-js"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML <i class="fa-brands fa-html5"></i> & CSS <i class="fa-brands fa-css3-alt"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>React <i class="fa-brands fa-react"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Bootstrap <i class="fa-brands fa-bootstrap"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Figma <i class="fa-brands fa-figma"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>40%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Professional Skills -->
-                <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunication <i class="fa-solid fa-comments"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Team Work <i class="fa-solid fa-people-carry-box"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creativity <i class="fa-solid fa-users-gear"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Critical thinking <i class="fa-regular fa-lightbulb"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Adaptable <i class="fa-solid fa-user-gear"></i></span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="contenido-seccion">
+          <h2>Skills</h2>
+          <div class="file">
+              <!-- Technical Skill -->
+              <div class="col">
+                  <h3>Technical Skills</h3>
+                  <div class="skill">
+                      <span>Javascript <i class="fa-brands fa-js"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>75%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>HTML <i class="fa-brands fa-html5"></i> & CSS <i class="fa-brands fa-css3-alt"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>75%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>React <i class="fa-brands fa-react"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>75%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Bootstrap <i class="fa-brands fa-bootstrap"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>75%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Figma <i class="fa-brands fa-figma"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>40%</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Professional Skills -->
+              <div class="col">
+                  <h3>Professional Skills</h3>
+                  <div class="skill">
+                      <span>Comunication <i class="fa-solid fa-comments"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>90%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Team_Work<i class="fa-solid fa-people-carry-box"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>90%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Creativity <i class="fa-solid fa-users-gear"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>90%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Critical_thinking <i class="fa-regular fa-lightbulb"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>85%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Adaptable <i class="fa-solid fa-user-gear"></i></span>
+                      <div class="barra-skill">
+                          <div class="progress">
+                              <span>85%</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
 
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Curriculum</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Education</h3>
-                    <div class="item izq">
-                        <h4>Web Application Development</h4>
-                        <span class="casa">Universidad Tecnologica de Pereira </span>
-                        <span class="fecha">2021</span>
-                        <p> Course in Web Application Development, Programming Fundamentals (Python), Basic Programming (Java), Software Development (JavaScript, node) and Web Application Development (React).</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Software Quality</h4>
-                        <span class="casa">APLICACION DE LA CALIDAD DEL
-                            SOFTWARE EN EL PROCESO DE DESARROLLO</span>
-                        <span class="fecha">2022</span>
-                        <p>Software quality training course, ISO 25000:2500 Standard, Software Quality, Software development life cycle, Quality models and measures.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Agile Development Methodology</h4>
-                        <span class="casa">Scrum Fundamentals Certified (SFC™)</span>
-                        <span class="fecha">2022</span>
-                        <p>Scrum agile work methodology. Basic course.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+          <h2>Curriculum</h2>
+          <div class="file">
+              <div class="col izquierda">
+                  <h3>Education</h3>
+                  <div class="item izq">
+                      <h4>Web Application Development</h4>
+                      <span class="casa">Universidad Tecnologica de Pereira </span>
+                      <span class="fecha">2021</span>
+                      <p> Course in Web Application Development, Programming Fundamentals (Python), Basic Programming (Java), Software Development (JavaScript, node) and Web Application Development (React).</p>
+                      <div class="conectori">
+                          <div class="circuloi"></div>
+                      </div>
+                  </div>
+                  <div class="item izq">
+                      <h4>Software Quality</h4>
+                      <span class="casa">APLICACION DE LA CALIDAD DEL
+                          SOFTWARE EN EL PROCESO DE DESARROLLO</span>
+                      <span class="fecha">2022</span>
+                      <p>Software quality training course, ISO 25000:2500 Standard, Software Quality, Software development life cycle, Quality models and measures.</p>
+                      <div class="conectori">
+                          <div class="circuloi"></div>
+                      </div>
+                  </div>
+                  <div class="item izq">
+                      <h4>Agile Development Methodology</h4>
+                      <span class="casa">Scrum Fundamentals Certified (SFC™)</span>
+                      <span class="fecha">2022</span>
+                      <p>Scrum agile work methodology. Basic course.</p>
+                      <div class="conectori">
+                          <div class="circuloi"></div>
+                      </div>
+                  </div>
+              </div>
 
-                <div class="col derecha">
-                    <h3>Project experience</h3>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+              <div class="col derecha">
+                  <h3>Project experience</h3>
+                  <div class="item der">
+                      <h4>Front Developer</h4>
+                      <span class="casa">Project Ecommerce Latin Tech</span>
+                      <span class="fecha">2023 - to date</span>
+                      <p>
+                        Volunteer in the development project, as a frontend developer and SCRUM Master, the project is being developed in React and other technologies.
+                        2023 -Currently.</p>
+                      <div class="conectord">
+                          <div class="circulod"></div>
+                      </div>
+                  </div>
+                  <div class="item der">
+                      <h4>Front Developer</h4>
+                      <span class="casa">HTML, CSS and JavaScript Project</span>
+                      <span class="fecha">2023</span>
+                      <p>Portfolio made in JavaScript, HTML and CSS. With deployment carried out in <strong>(firebase)</strong>.</p>
+                      <div class="conectord">
+                          <div class="circulod"></div>
+                      </div>
+                  </div>
+                  <div class="item der">
+                      <h4>Front Developer</h4>
+                      <span class="casa">Bootstrap JavaScript Project</span>
+                      <span class="fecha">2023</span>
+                      <p>Project carried out for learning purposes with bootstrap and JavaScript. With deployment in <strong>(firebase)</strong>.</p>
+                      <div class="conectord">
+                          <div class="circulod"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
 
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="/assets/about-1.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="/assets/about-2.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="/assets/about-3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="/assets/about-4.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="/assets/about-4.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="/assets/about-3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="/assets/project_2.png" alt="" />            
+            <div class="overlay">
+              <h3>Portfolio Macal</h3>
+              <p>Firebase</p>
+              <a href="https://ecommerce-tienda-7cff1.web.app/" target="_blank"> <i class="fa-solid fa-download"></i></a>
             </div>
-        </div>
+          </div>
+          <div class="proyecto">
+            <img src="/assets/project_1.png" alt="" />
+            <div class="overlay">
+              <h3>Bad Dog</h3>
+              <p>Firebase</p>
+              <a href="https://marioacosta-dev.web.app/index.html" target="_blank"> <i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="/assets/project_3.png" alt="" />
+            <div class="overlay">
+              <h3>E-commerce</h3>
+              <p>Netlify</p>
+              <a href="https://marioacosta-dev.web.app/index.html" target="_blank"> <i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+        </div>     
     </section>
 
-    <!-- SECCION CONTACTO -->
+    <!-- SECCION CONTACT -->
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACT</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Phone Number">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="subject">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button>
-                        Send Email<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                               Cali-Colombia
-                            </li>
-                            <li>
-                                <a href="https://wa.me/+573183978932" target="_blank"><i class="fa-brands fa-whatsapp"></i> +57(318)3978932</a>
-                                
-                            </li>
-                            <li>
-                                <a href="https://marioaa25@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> marioaa25@gmail.com</a>                               
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="contenido-seccion">
+          <h2>CONTACT</h2>
+          <div class="file">
+              <!-- submit -->
+              <div class="col">
+                <form target="_blank" action="https://formsubmit.co/marioaa25@gmail.com" method="POST">
+                  <input type="text" placeholder="Name" name="name" required>
+                  <input type="text" placeholder="Phone Number" name="Phone" required>
+                  <input type="email" placeholder="Email" name="email" required>
+                  <input type="text" placeholder="subject">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                  <button type="submit" >
+                      Send Email<i class="fa-solid fa-paper-plane"></i>
+                      <span class="overlay"></span>
+                  </button>
+                </form>
+              </div>
+              <!-- Map -->
+              <div class="col">
+                  
+                  <div class="info">
+                      <ul>
+                          <li>
+                              <i class="fa-solid fa-location-dot"></i>
+                             Cali-Colombia
+                          </li>
+                          <li>
+                              <a href="https://wa.me/+573183978932" target="_blank"><i class="fa-brands fa-whatsapp"></i> +57(318)3978932</a>
+                              
+                          </li>
+                          <li>
+                              <a href="https://marioaa25@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> marioaa25@gmail.com</a>                               
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
 
     <!-- footer -->
     <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="redes">
-            <a href="https://www.instagram.com/mario.acosta_/" target="_blank"><i class="fab fa-instagram"></i></a>                
-            <a href="#" target="_blank"><i class="fa-brands fa-skype" target="_blank"></i></a>
-            <a href="https://www.linkedin.com/in/mario-acosta-alvarez/" target="_blank"><i class="fa-brands fa-linkedin-in" target="_blank"></i></a>
-            <a href="https://github.com/Marioacal" target="_blank"><i class="fab fa-github"></i></i></a>
-        </div>
+      <a href="#inicio" class="arriba">
+          <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+          <a href="https://www.instagram.com/mario.acosta_/" target="_blank"><i class="fab fa-instagram"></i></a>                
+          <a href="https://join.skype.com/invite/mI3bX8T2HpFe" target="_blank"><i class="fa-brands fa-skype" target="_blank"></i></a>
+          <a href="https://www.linkedin.com/in/mario-acosta-alvarez/" target="_blank"><i class="fa-brands fa-linkedin-in" target="_blank"></i></a>
+          <a href="https://github.com/Marioacal" target="_blank"><i class="fab fa-github"></i></i></a>
+      </div>
+
     </footer>
 
-    <script src="index.js" type="module"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
